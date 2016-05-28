@@ -3,6 +3,8 @@ package com.company;
 /**
  * Created by Legat on 5/27/2016.
  */
+
+
 public class NumberClass {
     public static boolean isNumberByDouble(String strNumber) {
         double d;

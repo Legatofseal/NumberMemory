@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.print(NumberClass.isNumberByParse("-50"));
+        //System.out.print(NumberClass.isNumberByParse("-50"));
+
+        System.out.print(MemoryService.getMaxMemory());
     }
 }
