@@ -9,6 +9,7 @@ public class MemoryService {
         try {
             freeMemory = Runtime.getRuntime().freeMemory();
         } catch (Exception ex){
+            System.out.println(ex.toString());
             freeMemory=-1;
         }
         return freeMemory;
